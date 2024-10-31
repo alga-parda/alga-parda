@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         algae: "#D5C28A",
+        navbar: "79381E",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
