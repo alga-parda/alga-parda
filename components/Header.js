@@ -8,21 +8,21 @@ export default function Header() {
     const router = useRouter();
 
     return (
-    <div className="fixed w-full h-48">
+    <div className="fixed z-10 top-0 h-1/2 w-full">
         <header className="bg-algae">
             <Image
                 alt="alga parda logo"
                 src={logo}
                 className="cursor-pointer"
                 style={{
-                    maxWidth: '20%',
+                    maxWidth: '250px',
                     height: 'auto',
                     margin: 'auto',
                     paddingTop: '20px'
                 }}
                 onClick={() => router.push('/')}
             />
-            <div className="flex pb-4 justify-between w-1/2 m-auto pt-2">
+            <div className="flex pb-4 justify-between w-[500px] m-auto pt-2">
                 <button 
                     type="button"
                     onClick={() => router.push('/sobre')}
