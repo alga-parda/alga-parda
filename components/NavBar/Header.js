@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
-import logo from "../public/alga-parda.png"
+import logo from "@/public/alga-parda.png"
 import NewsModal from "./NewsModal";
 
 export default function Header() {

@@ -1,6 +1,6 @@
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/NavBar/Header";
+import Footer from "@/components/NavBar/Footer";
 
 export const metadata = {
   title: "alga parda",

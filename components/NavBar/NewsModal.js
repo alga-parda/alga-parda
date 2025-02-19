@@ -23,7 +23,7 @@ const NewsModal = ({ isOpen, onClose }) => {
     
     return (
         <div className="fixed inset-0 z-50 bg-black bg-opacity-10 backdrop-blur-sm flex justify-center items-center">
-            <div className="absolute max-h-[300px] w-full max-w-sm bg-black opacity-80">
+            <div className="absolute max-h-[300px] w-full max-w-sm bg-black border-2 border-black">
                 <div className="relative z-10 overflow-y-auto bg-white p-6">
                     <button 
                         className="absolute right-3 top-1"
