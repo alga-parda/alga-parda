@@ -4,7 +4,7 @@ export default function Home() {
 
   return (
       <Main>
-        <div className="absolute top-56 pb-16 flex flex-row">
+        <div className="absolute top-56 ml-64 pb-16 flex flex-row">
           <div className="bg-cyan-700 h-[640px] w-[320px]">
             hello
           </div>

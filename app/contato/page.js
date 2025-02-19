@@ -7,7 +7,7 @@ export const metadata = {
 export default function Contato() {
     return (
         <Main>
-            <div className="absolute top-56">
+            <div className="absolute ml-64 top-56">
                 <h1 className="text-4xl">fala com o pai/a mãe</h1>
                 <p className="text-sm mt-8">emailfoda@gmail.com</p>
             </div>
