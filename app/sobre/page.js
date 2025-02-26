@@ -7,15 +7,9 @@ export const metadata = {
 export default function Sobre() {
     return (
         <Main>
-            <div className="absolute top-56 max-w-screen-xl ml-36 overflow-x-scroll">
-                <div className="flex gap-10 whitespace-nowrap px-4">
-                    <div className="bg-cyan-700 h-[640px] w-[300px] flex-shrink-0"></div>
-                    <div className="bg-cyan-700 h-[640px] w-[300px] flex-shrink-0"></div>
-                    <div className="bg-cyan-700 h-[640px] w-[300px] flex-shrink-0"></div>
-                    <div className="bg-cyan-700 h-[640px] w-[300px] flex-shrink-0"></div>
-                    <div className="bg-cyan-700 h-[640px] w-[300px] flex-shrink-0"></div>
-                    <div className="bg-cyan-700 h-[640px] w-[300px] flex-shrink-0"></div>
-                </div>
+            <div className="absolute ml-64 top-56">
+                <h1 className="text-4xl">fala com o pai/a mãe</h1>
+                <p className="text-sm mt-8">emailfoda@gmail.com</p>
             </div>
         </Main>
     );
